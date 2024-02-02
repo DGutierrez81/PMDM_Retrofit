@@ -27,7 +27,7 @@ import coil.compose.rememberImagePainter
 import com.example.retrofit3.iu.RetrofitServiceFactory
 import com.example.retrofit3.ui.theme.Retrofit3Theme
 import kotlinx.coroutines.launch
-
+//Para poder hacer el commit
 class MainActivity : ComponentActivity() {
     private var DogsList by mutableStateOf<List<DogsResponse>>(emptyList())
     override fun onCreate(savedInstanceState: Bundle?) {
